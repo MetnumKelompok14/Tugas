@@ -25,5 +25,5 @@ def main():
     for i in range(len(turunan_selisih_mundur)):
         print(f"f'({data[i+1]}) = {turunan_selisih_mundur[i]}")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
